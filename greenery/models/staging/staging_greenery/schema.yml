@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: Addresses 
+    columns:
+      - name: address_id
+        tests:
+          - not_null
+  - name: stg_events
+  - name: stg_order_items
+  - name: stg_orders
+  - name: stg_products
+  - name: stg_promos
+  - name: stg_users
+    description: Users
+    columns:
+    - name: user_id
+      tests:
+        - not_null
